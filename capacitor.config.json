@@ -1,0 +1,6 @@
+{
+  "appId": "com.give.name", 
+  "appName": "Give name",
+  "webDir": "dist",
+  "bundledWebRuntime": false
+}

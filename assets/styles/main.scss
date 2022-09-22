@@ -1,0 +1,45 @@
+@charset "utf-8";
+
+@import '~/node_modules/@mdi/font/css/materialdesignicons.css';
+@import 'variables.scss';
+@import 'animate.css';
+
+$primary: $green;
+$link: $blue-1;
+$white: $white;
+$black: $black;
+
+$grey-darker: $grey-1;
+$grey-dark: $grey-2;
+$grey: $grey-3;
+$grey-light: $grey-4;
+$grey-lighter: $grey-5;
+
+$family-primary: 'Roboto', sans-serif;
+
+
+/* card customization */
+$card-background-color: $white;
+$card-shadow: 0px 0px 20px rgba(0, 0, 0, 0.0523656);
+$card-radius: 10px;
+$card-content-padding: clamp(10*0.75px,2.778vw,10*1.5px);
+
+/* input  */
+$input-background-color: $white;
+$input-border-color: $grey-5;
+$input-radius: 4px;
+$input-disabled-color: $grey-4;
+$input-focus-border-color: $green;
+
+/* label */
+$label-color: $grey-3;
+$label-weight: 500;
+$help-size: clamp(14*0.75px,3.889vw,14*1.5px);
+
+.label{
+    font-size: 1.1rem !important;
+    margin-bottom: 0.1em !important;
+    letter-spacing: .05em !important;
+}
+
+@import "~/node_modules/bulma/bulma.sass";

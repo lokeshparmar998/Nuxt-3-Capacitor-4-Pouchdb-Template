@@ -1,0 +1,44 @@
+$green: #30A673;
+$green-lighter: #DFF5ED;
+$white: #FFFFFF;
+$black: #000000;
+$black-lighter: #212121;
+
+$orange: #F2994A;
+$red: #EB5757;
+
+$grey-1: #333333;
+$grey-2: #4F4F4F;
+$grey-3: #828282;
+$grey-4: #BDBDBD;
+$grey-5: #E0E0E0;
+
+$blue-1: #2F80ED;
+$blue-2: #3393D9;
+$blue-3: #2D9CDB;
+
+.outer-container {
+    width: 100%;
+    background-color: $green
+}
+
+.inner-container {
+    padding: 16px;
+    background-color: $white;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.page-heading {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: clamp(14*0.75px, 3.889vw, 14*1.5px);
+    letter-spacing: 0.05em;
+    color: $white;
+    font-weight: 500;
+    padding-top: 15px;
+}
+.div-center{
+    display: grid;
+    place-items: center;
+}
